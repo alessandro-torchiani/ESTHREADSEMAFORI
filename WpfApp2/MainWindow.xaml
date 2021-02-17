@@ -1,0 +1,44 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="618.626">
+    <Grid Margin="0,0,98.6,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image HorizontalAlignment="Left" Height="115" Margin="0,305,0,0" VerticalAlignment="Top" Width="133" Source="cinema cassa.jpg" Grid.RowSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="115" Margin="316,305,-66.2,0" VerticalAlignment="Top" Width="234" Source="cinema cassa - Copia.jpg" Grid.RowSpan="2"/>
+        <Image x:Name="img1" HorizontalAlignment="Left" Height="49" Margin="19,10,0,0" VerticalAlignment="Top" Width="81" Source="postolibero1.jpg"/>
+        <Image x:Name="img2" HorizontalAlignment="Left" Height="49" Margin="180,10,0,0" VerticalAlignment="Top" Width="81" Source="postolibera2.jpg"/>
+        <Image x:Name="img4" HorizontalAlignment="Left" Height="49" Margin="469,10,-66.2,0" VerticalAlignment="Top" Width="81" Source="postolibera4.jpg"/>
+        <Image x:Name="img3" HorizontalAlignment="Left" Height="49" Margin="331,10,0,0" VerticalAlignment="Top" Width="81" Source="postolibera3.jpg"/>
+        <Image x:Name="img5" HorizontalAlignment="Left" Height="49" Margin="19,81,0,0" VerticalAlignment="Top" Width="81" Source="postolibera5.jpg"/>
+        <Image x:Name="img6" HorizontalAlignment="Left" Height="49" Margin="180,81,0,0" VerticalAlignment="Top" Width="81" Source="postolibera6.jpg"/>
+        <Image x:Name="img7" HorizontalAlignment="Left" Height="49" Margin="331,81,0,0" VerticalAlignment="Top" Width="81" Source="postolibera7.jpg"/>
+        <Image x:Name="img9" HorizontalAlignment="Left" Height="49" Margin="19,156,0,0" VerticalAlignment="Top" Width="81" Source="postolibera9.jpg"/>
+        <Image x:Name="img10" HorizontalAlignment="Left" Height="49" Margin="180,156,0,0" VerticalAlignment="Top" Width="81" Source="postolibera10.jpg"/>
+        <Image x:Name="img11" HorizontalAlignment="Left" Height="49" Margin="331,156,0,0" VerticalAlignment="Top" Width="81" Source="postolibera11.jpg"/>
+        <Image x:Name="img12" HorizontalAlignment="Left" Height="49" Margin="469,156,-66.2,0" VerticalAlignment="Top" Width="81" Source="postolibera12.jpg"/>
+        <Image x:Name="img8" HorizontalAlignment="Left" Height="49" Margin="469,81,-66.2,0" VerticalAlignment="Top" Width="81" Source="postolibera8.jpg"/>
+        <Image x:Name="img13" HorizontalAlignment="Left" Height="49" Margin="19,229,0,0" VerticalAlignment="Top" Width="81" Source="postolibera13.jpg"/>
+        <Image x:Name="img14" HorizontalAlignment="Left" Height="49" Margin="180,229,0,0" VerticalAlignment="Top" Width="81" Source="postolibera14.jpg"/>
+        <Image x:Name="img15" HorizontalAlignment="Left" Height="49" Margin="331,229,0,0" VerticalAlignment="Top" Width="81" Source="postolibera15.jpg"/>
+        <Image x:Name="img16" HorizontalAlignment="Left" Height="49" Margin="469,229,-66.2,0" VerticalAlignment="Top" Width="81" Source="postolibera16.jpg"/>
+        <Button x:Name="btn1" Content="ACQUISTA UN POSTO" HorizontalAlignment="Left" Margin="138,305,0,0" VerticalAlignment="Top" Width="138" Click="btn1_Click"/>
+        <Button x:Name="btn4" Content="ACQUISTA UN POSTO" HorizontalAlignment="Left" Margin="455,310,-88.4,0" VerticalAlignment="Top" Width="138" Click="btn4_Click"/>
+        <Button x:Name="btn2" Content=" SCEGLI &#xD;&#xA;POSTO" HorizontalAlignment="Left" Height="40" Margin="138,324,0,0" VerticalAlignment="Top" Width="66" Grid.RowSpan="2" Click="btn2_Click"/>
+        <Button x:Name="btn3" Content="POSTO&#xD;&#xA;CASUALE" HorizontalAlignment="Left" Height="40" Margin="204,324,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="72" Click="btn3_Click"/>
+        <TextBox x:Name="txt1" HorizontalAlignment="Left" Height="22" Margin="138,37.6,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="138"/>
+        <Label x:Name="lbl1" Content="Inserisci numero posto:" HorizontalAlignment="Left" Height="28" Margin="138,9.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="138"/>
+        <Button x:Name="btn5" Content=" SCEGLI &#xA;POSTO" HorizontalAlignment="Left" Height="40" Margin="455,329,-37.2,0" VerticalAlignment="Top" Width="66" Grid.RowSpan="2" Click="btn5_Click"/>
+        <Button x:Name="btn6" Content="POSTO&#xA;CASUALE" HorizontalAlignment="Left" Height="40" Margin="521,329,-109.2,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="72"/>
+        <TextBox x:Name="txt2" HorizontalAlignment="Left" Height="22" Margin="455,42.6,-88.4,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="138"/>
+        <Label x:Name="lbl2" Content="Inserisci numero posto:" HorizontalAlignment="Left" Height="28" Margin="455,14.6,-88.4,0" Grid.Row="1" VerticalAlignment="Top" Width="138"/>
+
+    </Grid>
+</Window>
